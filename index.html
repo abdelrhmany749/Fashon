@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- cdn icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- topheader  -->
+    <div class="top-header">
+      <div class="container">
+        <div class="main">
+          <!-- left -->
+          <div class="left">
+            <i class="bi bi-envelope-fill"><span>rehabM@gmail.com</span></i>
+            <i class="bi bi-telephone-fill"><span>+201145454</span></i>
+          </div>
+          <!--======= /left ======== -->
+          <!-- right -->
+          <div class="right">
+            <div class="media">
+              <a
+                href="https://ar-ar.facebook.com/login/device-based/regular/login/"
+                class="bi bi-facebook"
+              ></a>
+              <a href="https://twitter.com/login" class="bi bi-twitter"></a>
+              <a href="https://www.linkedin.com/" class="bi bi-linkedin"></a>
+            </div>
+            <!-- model  -->
+            <div class="model" id="model-login">
+              <div class="close-btn" id="closeBtn">&times;</div>
+
+              <div class="model-form" id="model-content">
+                <div class="form-container sign-up-container">
+                  <form action="#">
+                    <h1>Create Account</h1>
+                    <div class="social-container">
+                      <a
+                        href="https://ar-ar.facebook.com/login/device-based/regular/login/"
+                        class="social"
+                      >
+                        <i class="bi bi-facebook"></i>
+                      </a>
+
+                      <a href="https://www.linkedin.com/" class="social">
+                        <i class="bi bi-linkedin"></i>
+                      </a>
+
+                      <a href="https://twitter.com/login" class="social">
+                        <i class="bi bi-twitter"></i>
+                      </a>
+                    </div>
+                    <span>or use your email for registration</span>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <button>Sign Up</button>
+                  </form>
+                </div>
+                <div class="form-container sign-in-container">
+                  <form action="#">
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+                      <a
+                        href="https://ar-ar.facebook.com/login/device-based/regular/login/"
+                        class="social"
+                      >
+                        <i class="bi bi-facebook"></i>
+                      </a>
+
+                      <a href="https://www.linkedin.com/" class="social">
+                        <i class="bi bi-linkedin"></i>
+                      </a>
+
+                      <a href="https://twitter.com/login" class="social">
+                        <i class="bi bi-twitter"></i>
+                      </a>
+                    </div>
+                    <span>or use your account</span>
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <a href="#">Forgot your password?</a>
+                    <button>Sign In</button>
+                  </form>
+                </div>
+                <div class="overlay-container">
+                  <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                      <h1>Welcome Back!</h1>
+                      <p>
+                        To keep connected with us please login with your
+                        personal info
+                      </p>
+                      <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                      <h1>Hello, Friend!</h1>
+                      <p>
+                        Enter your personal details and start journey with us
+                      </p>
+                      <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /model  -->
+            <div class="login" id="icon-login">
+              <i class="bi bi-person-fill"><span>login</span></i>
+            </div>
+
+            <i class="bi bi-layout-text-sidebar" id="toogle-bars"></i>
+          </div>
+          <!--======= /right ======== -->
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- ===============/topheader======================  -->
+    <!-- header  -->
+
+    <header>
+      <div class="container">
+        <div class="main">
+          <div class="logo">
+            <a href="#home">
+              <img
+                src="./image/logo-carousel/logo.png"
+                alt="image"
+                draggable="false"
+              />
+            </a>
+          </div>
+
+          <div class="input-header">
+            <div class="input-group">
+              <select name="Catigory" class="Catigory">
+                <option value="volvo">clothes</option>
+                <option value="saab">HandBag</option>
+                <option value="opel">Shoes</option>
+              </select>
+              <input type="text" placeholder="Search For" />
+              <span id="inputGroup-sizing"
+                ><span class="bi bi-search"></span
+              ></span>
+            </div>
+          </div>
+
+          <div class="icons-header">
+            <div class="icon">
+              <i class="bi bi-suit-heart"><span>1</span></i>
+              <i class="bi bi-bag"><span>1</span></i>
+              <span>$150.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--===================== /header =============================================== -->
+
+    <!--=============================================== navbar =======================-->
+
+    <nav class="navbar" id="navbaro">
+      <div class="container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Collection</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Pages</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ================================= navbar =======================================-->
+
+    <!--================================= home  ===========-->
+
+    <section class="home" id="home">
+      <div class="product">
+        <div class="slider">
+          <div class="slide">
+            <div class="content">
+              <span>Bag, Kids</span>
+              <h1>Black Friday</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br />
+                sed do eiusmod tempor incididunt ut labore et dolore
+              </p>
+              <a href="#" class="primary-btn">Shop Now</a>
+            </div>
+            <div class="image">
+              <img src="./image/hero-1.jpg" alt="" srcset="" />
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="content">
+              <span>Bag, Kids</span>
+              <h1>Black Friday</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br />
+                sed do eiusmod tempor incididunt ut labore et dolore
+              </p>
+              <a href="#" class="primary-btn">Shop Now</a>
+            </div>
+            <div class="image">
+              <img src="./image/hero-2.jpg" alt="" srcset="" />
+            </div>
+          </div>
+          <!-- Add more slides as needed -->
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+      </div>
+    </section>
+
+    <!--=====================/ home  =====================-->
+
+    <!--===================== Banner Section Begin  =====================-->
+    <div class="banner-section spad">
+      <div class="container">
+        <div class="row">
+          <div class="cart">
+            <div class="single-banner">
+              <img src="./image/banner-1.jpg" alt="" />
+
+              <div class="inner-text">
+                <h4>Men’s</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cart">
+            <div class="single-banner">
+              <img src="./image/banner-2.jpg" alt="" />
+
+              <div class="inner-text">
+                <h4>Women’s</h4>
+              </div>
+            </div>
+          </div>
+          <div class="cart">
+            <div class="single-banner">
+              <img src="./image/banner-3.jpg" alt="" />
+
+              <div class="inner-text">
+                <h4>Kid’s</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--===================== /Banner Section Begin  =====================-->
+    <!--===================== women-banner  =====================-->
+    <section class="women-banner">
+      <div class="container">
+        <div class="row">
+          <div class="Women">
+            <div class="product-large">
+              <h2>Women’s</h2>
+              <a href="#">Discover More</a>
+            </div>
+          </div>
+          <!-- min-content  -->
+          <div class="min-content">
+            <div class="products">
+              <div class="filter-control">
+                <ul>
+                  <li class="active">Clothings</li>
+                  <li>HandBag</li>
+                  <li>Shoes</li>
+                  <li>Accessories</li>
+                </ul>
+              </div>
+              <div class="product">
+                <div class="content">
+                  <!-- product-item  -->
+                  <div class="product-item">
+                    <div class="pi-pic">
+                      <img src="./image/products/women-1.jpg" alt="" />
+                      <div class="icon">
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <ul>
+                        <li class="w-icon">
+                          <a href="#"><i class="bi bi-bag-fill"></i></a>
+                        </li>
+                        <li class="quick-view"><a href="#">+ Quick View</a></li>
+                        <li class="w-icon">
+                          <a href="#"><i class="bi bi-shuffle"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="pi-text">
+                      <div class="catagory-name">Shoes</div>
+                      <a href="#">
+                        <h5>Guangzhou sweater</h5>
+                      </a>
+                      <div class="product-price">$13.00</div>
+                    </div>
+                  </div>
+
+                  <!-- product-item  -->
+                  <div class="product-item">
+                    <div class="pi-pic">
+                      <img src="./image/products/women-2.jpg" alt="" />
+                      <div class="icon">
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <ul>
+                        <li class="w-icon active">
+                          <a href="#"><i class="bi bi-bag-fill"></i></a>
+                        </li>
+                        <li class="quick-view"><a href="#">+ Quick View</a></li>
+                        <li class="w-icon">
+                          <a href="#"><i class="bi bi-shuffle"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="pi-text">
+                      <div class="catagory-name">Shoes</div>
+                      <a href="#">
+                        <h5>Guangzhou sweater</h5>
+                      </a>
+                      <div class="product-price">$13.00</div>
+                    </div>
+                  </div>
+
+                  <!-- product-item  -->
+                  <div class="product-item">
+                    <div class="pi-pic">
+                      <img src="./image/products/women-3.jpg" alt="" />
+                      <div class="icon">
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <ul>
+                        <li class="w-icon active">
+                          <a href="#"><i class="bi bi-bag-fill"></i></a>
+                        </li>
+                        <li class="quick-view"><a href="#">+ Quick View</a></li>
+                        <li class="w-icon">
+                          <a href="#"><i class="bi bi-shuffle"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="pi-text">
+                      <div class="catagory-name">Shoes</div>
+                      <a href="#">
+                        <h5>Guangzhou sweater</h5>
+                      </a>
+                      <div class="product-price">$13.00</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--===================== /women-banner  =====================-->
+
+    <!--===================== Deal Of The Week Section Begin=====================-->
+    <!-- <section class="deal-of-week">
+      <div class="bg">
+        <div class="main">
+          <div class="section-title">
+            <h2>Deal Of The Week</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed<br />
+              do ipsum dolor sit amet, consectetur adipisicing elit
+            </p>
+            <div class="product-price">
+              $35.00
+              <span>/ HanBag</span>
+            </div>
+
+            <div class="countdown-timer" id="countdown">
+              <div class="cd-item">
+                <span>56</span>
+                <p>Days</p>
+              </div>
+              <div class="cd-item">
+                <span>12</span>
+                <p>Hrs</p>
+              </div>
+              <div class="cd-item">
+                <span>40</span>
+                <p>Mins</p>
+              </div>
+              <div class="cd-item">
+                <span>52</span>
+                <p>Secs</p>
+              </div>
+            </div>
+            <a href="#" class="primary-btn">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="deal-of-week">
+      <div class="bg">
+        <div class="main">
+          <div class="section-title">
+            <h2>Deal Of The Week</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed<br />
+              do ipsum dolor sit amet, consectetur adipisicing elit
+            </p>
+            <div class="product-price">
+              $35.00
+              <span>/ HanBag</span>
+            </div>
+    
+            <div class="countdown-timer" id="countdown">
+              <div class="cd-item" id="days">
+                <span>00</span>
+              </div>
+              <p>Days</p>
+              <div class="cd-item" id="hours">
+                <span>00</span>
+              </div>
+              <p>Hrs</p>
+              <div class="cd-item" id="minutes">
+                <span>00</span>
+              </div>
+              <p>Mins</p>
+              <div class="cd-item" id="seconds">
+                <span>00</span>
+              </div>
+              <p>Secs</p>
+            </div>
+            <a href="#" class="primary-btn">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============Deal Of The Week Section End =====================-->
+
+    <!--===================== man-banner  =====================-->
+    <section class="women-banner">
+      <div class="container">
+        <div class="row-man">
+          <!-- min-content  -->
+          <div class="min-content">
+            <div class="products">
+              <div class="filter-control">
+                <ul>
+                  <li class="active">Clothings</li>
+                  <li>HandBag</li>
+                  <li>Shoes</li>
+                  <li>Accessories</li>
+                </ul>
+              </div>
+              <div class="product">
+                <div class="content">
+                  <!-- product-item  -->
+                  <div class="product-item">
+                    <div class="pi-pic">
+                      <img src="./image/products/man-1.jpg" alt="" />
+                      <div class="icon">
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <ul>
+                        <li class="w-icon">
+                          <a href="#"><i class="bi bi-bag-fill"></i></a>
+                        </li>
+                        <li class="quick-view"><a href="#">+ Quick View</a></li>
+                        <li class="w-icon">
+                          <a href="#"><i class="bi bi-shuffle"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="pi-text">
+                      <div class="catagory-name">Shoes</div>
+                      <a href="#">
+                        <h5>Guangzhou sweater</h5>
+                      </a>
+                      <div class="product-price">$13.00</div>
+                    </div>
+                  </div>
+
+                  <!-- product-item  -->
+                  <div class="product-item">
+                    <div class="pi-pic">
+                      <img src="./image/products/man-2.jpg" alt="" />
+                      <div class="icon">
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <ul>
+                        <li class="w-icon active">
+                          <a href="#"><i class="bi bi-bag-fill"></i></a>
+                        </li>
+                        <li class="quick-view"><a href="#">+ Quick View</a></li>
+                        <li class="w-icon">
+                          <a href="#"><i class="bi bi-shuffle"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="pi-text">
+                      <div class="catagory-name">Shoes</div>
+                      <a href="#">
+                        <h5>Guangzhou sweater</h5>
+                      </a>
+                      <div class="product-price">$13.00</div>
+                    </div>
+                  </div>
+
+                  <!-- product-item  -->
+                  <div class="product-item">
+                    <div class="pi-pic">
+                      <img src="./image/products/man-3.jpg" alt="" />
+                      <div class="icon">
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <ul>
+                        <li class="w-icon active">
+                          <a href="#"><i class="bi bi-bag-fill"></i></a>
+                        </li>
+                        <li class="quick-view"><a href="#">+ Quick View</a></li>
+                        <li class="w-icon">
+                          <a href="#"><i class="bi bi-shuffle"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="pi-text">
+                      <div class="catagory-name">Shoes</div>
+                      <a href="#">
+                        <h5>Guangzhou sweater</h5>
+                      </a>
+                      <div class="product-price">$13.00</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /min-content  -->
+          <!-- Women -->
+          <div class="man">
+            <div class="product-large">
+              <h2>MAN’s</h2>
+              <a href="#">Discover More</a>
+            </div>
+          </div>
+          <!-- /Women -->
+        </div>
+      </div>
+    </section>
+    <!--===================== /Mans-banner  =====================-->
+
+    <!--===================== Instagram Section Begin =====================-->
+    <div class="instagram-photo">
+      <div class="insta-item set-bg">
+        <img src="./image/insta-1.jpg" alt="image" />
+        <div class="inside-text">
+          <i class="bi bi-instagram"></i>
+          <h5><a href="#">colorlib_Collection</a></h5>
+        </div>
+      </div>
+
+      <div class="insta-item set-bg">
+        <img src="./image/insta-2.jpg" alt="image" />
+        <div class="inside-text">
+          <i class="bi bi-instagram"></i>
+          <h5><a href="#">colorlib_Collection</a></h5>
+        </div>
+      </div>
+
+      <div class="insta-item set-bg">
+        <img src="./image/insta-3.jpg" alt="image" />
+        <div class="inside-text">
+          <i class="bi bi-instagram"></i>
+          <h5><a href="#">colorlib_Collection</a></h5>
+        </div>
+      </div>
+
+      <div class="insta-item set-bg">
+        <img src="./image/insta-4.jpg" alt="image" />
+        <div class="inside-text">
+          <i class="bi bi-instagram"></i>
+          <h5><a href="#">colorlib_Collection</a></h5>
+        </div>
+      </div>
+
+      <div class="insta-item set-bg">
+        <img src="./image/insta-5.jpg" alt="image" />
+        <div class="inside-text">
+          <i class="bi bi-instagram"></i>
+          <h5><a href="#">colorlib_Collection</a></h5>
+        </div>
+      </div>
+
+      <div class="insta-item set-bg">
+        <img src="./image/insta-1.jpg" alt="image" />
+        <div class="inside-text">
+          <i class="bi bi-instagram"></i>
+          <h5><a href="#">colorlib_Collection</a></h5>
+        </div>
+      </div>
+    </div>
+    <!--===================== Instagram Section Begin =====================-->
+
+    <!-- Latest Blog Section Begin -->
+    <section class="latest-blog spad">
+      <div class="container">
+        <div class="blog">
+          <h2>From The Blog</h2>
+        </div>
+
+        <div class="row">
+          <div class="content">
+            <div class="single-latest-blog">
+              <img src="./image/latest-1.jpg" alt="" />
+              <div class="latest-text">
+                <div class="tag-list">
+                  <div class="tag-item">
+                    <i class="bi bi-calendar-date"></i>
+                    May 4,2019
+                  </div>
+                  <div class="tag-item">
+                    <i class="bi bi-chat"></i>
+                    5
+                  </div>
+                </div>
+                <a href="#">
+                  <h4>
+                    The Best Street Style From <br />
+                    London Fashion Week
+                  </h4>
+                </a>
+                <p>
+                  Sed quia non numquam modi tempora indunt ut labore et dolore
+                  magnam aliquam quaerat
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="single-latest-blog">
+              <img src="./image/latest-2.jpg" alt="" />
+              <div class="latest-text">
+                <div class="tag-list">
+                  <div class="tag-item">
+                    <i class="bi bi-calendar-date"></i>
+                    May 4,2019
+                  </div>
+                  <div class="tag-item">
+                    <i class="bi bi-chat"></i>
+                    5
+                  </div>
+                </div>
+                <a href="#">
+                  <h4>
+                    Vogue's Ultimate Guide To <br />
+                    Autumn/Winter 2019 Shoes
+                  </h4>
+                </a>
+                <p>
+                  Sed quia non numquam modi tempora indunt ut labore et dolore
+                  magnam aliquam quaerat
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="single-latest-blog">
+              <img src="./image/latest-3.jpg" alt="" />
+              <div class="latest-text">
+                <div class="tag-list">
+                  <div class="tag-item">
+                    <i class="bi bi-calendar-date"></i>
+                    May 4,2019
+                  </div>
+                  <div class="tag-item">
+                    <i class="bi bi-chat"></i>
+                    5
+                  </div>
+                </div>
+                <a href="#">
+                  <h4>
+                    How To Brighten Your Wardrobe With <br />
+                    A Dash Of Lime
+                  </h4>
+                </a>
+                <p>
+                  Sed quia non numquam modi tempora indunt ut labore et dolore
+                  magnam aliquam quaerat
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="benefit-items">
+          <div class="row-icon">
+            <div class="single-benefit">
+              <div class="sb-icon">
+                <img src="./image/icon-1.png" alt="" />
+              </div>
+              <div class="sb-text">
+                <h6>Free Shipping</h6>
+                <p>For all order over 99$</p>
+              </div>
+            </div>
+
+            <div class="single-benefit">
+              <div class="sb-icon">
+                <img src="./image/icon-2.png" alt="" />
+              </div>
+              <div class="sb-text">
+                <h6>Free Shipping</h6>
+                <p>For all order over 99$</p>
+              </div>
+            </div>
+
+            <div class="single-benefit">
+              <div class="sb-icon">
+                <img src="./image/icon-3.png" alt="" />
+              </div>
+              <div class="sb-text">
+                <h6>Free Shipping</h6>
+                <p>For all order over 99$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Latest Blog Section End -->
+
+    <!-- Partner Logo Section Begin -->
+    <div class="partner-logo">
+      <div class="container">
+        <div class="logo-carousel">
+          <div class="logo-item">
+            <div class="tablecell-inner">
+              <img src="./image/logo-carousel/logo-1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="logo-item">
+            <div class="tablecell-inner">
+              <img src="./image/logo-carousel/logo-2.png" alt="" />
+            </div>
+          </div>
+          <div class="logo-item">
+            <div class="tablecell-inner">
+              <img src="./image/logo-carousel/logo-3.png" alt="" />
+            </div>
+          </div>
+          <div class="logo-item">
+            <div class="tablecell-inner">
+              <img src="./image/logo-carousel/logo-4.png" alt="" />
+            </div>
+          </div>
+          <div class="logo-item">
+            <div class="tablecell-inner">
+              <img src="./image/logo-carousel/logo-5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Partner Logo Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="content">
+            <div class="footer-left">
+              <div class="footer-logo">
+                <a href="#"
+                  ><img src="./image/logo-carousel/footer-logo.png" alt=""
+                /></a>
+              </div>
+              <ul>
+                <li>Address: 60-49 Road 11378 New York</li>
+                <li>Phone: +65 11.188.888</li>
+                <li>Email: hello.colorlib@gmail.com</li>
+              </ul>
+              <div class="footer-social">
+                <a
+                  href="https://ar-ar.facebook.com/login/device-based/regular/login/"
+                >
+                  <i class="bi bi-facebook"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a href="https://twitter.com/login">
+                  <i class="bi bi-twitter"></i>
+                </a>
+
+                <a href="#">
+                  <i class="bi bi-pinterest"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="footer-widget">
+              <h5>Information</h5>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Checkout</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Serivius</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <div class="footer-widget">
+              <h5>My Account</h5>
+              <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Shopping Cart</a></li>
+                <li><a href="#">Shop</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <div class="newslatter-item">
+              <h5>Join Our Newsletter Now</h5>
+              <p>
+                Get E-mail updates about our latest shop and special offers.
+              </p>
+              <form action="#" class="subscribe-form">
+                <input type="text" placeholder="Enter Your Mail" />
+                <button type="button">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- script-js  -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
